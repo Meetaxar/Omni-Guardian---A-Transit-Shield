@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Databases
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# ── Node / Frontend ──────────────────────────────────────
+node_modules/
+dist/
+.vite/
+
+# ── Environment files (contains passwords — NEVER commit) ─
+.env
+.env.local
+.env.production
+
+# ── Editor ───────────────────────────────────────────────
+.vscode/
+.idea/
